@@ -1,0 +1,125 @@
+:root {
+    --main-bg-color: rgb(253, 234, 250);
+    --main-bg1: beige;
+    --main-bg2: rgb(134, 134, 131);
+}
+
+html,
+body {
+    margin: 0;
+}
+
+.accueil {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+
+.title {
+    margin: auto;
+}
+
+.texte {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.infos {
+    margin: 0;
+}
+
+.tuiles {
+    display: flex;
+    flex-direction: column;
+}
+
+.div_tuile1 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-bg1);
+}
+
+.margin_auto {
+    margin: auto;
+}
+
+.p_tuile {
+    text-align: center;
+}
+
+.tuile1 {
+    width: 300px;
+    height: 250px;
+    background-color: var(--main-bg-color);
+}
+
+.div_tuile2 {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-bg2);
+}
+
+.tuile2 {
+    width: 300px;
+    height: 600px;
+    background-color: var(--main-bg-color);
+}
+
+.div_tuile3 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-bg1);
+}
+
+.tuile3 {
+    width: 300px;
+    height: 450px;
+    background-color: var(--main-bg-color);
+    margin: 1%;
+}
+
+.div_tuile4 {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-bg2);
+}
+
+.tuile4 {
+    width: 630px;
+    height: 300px;
+    background-color: var(--main-bg-color);
+    margin: 5%;
+}
+
+.div_tuile5 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-bg1);
+}
+
+.tuile5 {
+    width: 630px;
+    height: 450px;
+    background-color: var(--main-bg-color);
+    margin: 1%;
+}
+
+.t1 {
+    width: 250px !important;
+}
+
+.t2 {
+    width: 630px !important;
+}
