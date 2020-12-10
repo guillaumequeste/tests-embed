@@ -71,6 +71,10 @@ body {
     background-color: var(--main-bg-color);
 }
 
+.tuile2insta {
+    overflow: auto;
+}
+
 .div_tuile3 {
     width: 100%;
     height: 600px;
@@ -116,18 +120,6 @@ body {
     margin: 1%;
 }
 
-.t1 {
-    width: 250px !important;
-}
-
-.t2 {
-    width: 630px !important;
-}
-
-.i1 {
-    width: 326px !important;
-}
-
-.i2 {
-    width: 630px !important;
+.tuile5insta {
+    overflow: auto;
 }
